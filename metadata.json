@@ -1,0 +1,6 @@
+{
+  "name": "DharmaMart",
+  "description": "India-first smart local marketplace combining shopping, C2C resale, device exchange, local home services, UPI QR scan-and-pay, card transactions, and Cash on Delivery.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

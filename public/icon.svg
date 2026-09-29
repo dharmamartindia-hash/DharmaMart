@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F6E2E" />
+      <stop offset="52%" stop-color="#1E8E3E" />
+      <stop offset="100%" stop-color="#F26B1D" />
+    </linearGradient>
+    <linearGradient id="dArcGrad" x1="15%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#146C32" />
+      <stop offset="48%" stop-color="#229944" />
+      <stop offset="100%" stop-color="#FF7A1A" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#146C32" />
+      <stop offset="100%" stop-color="#68C132" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crisp Cream-White Circular Backing -->
+  <circle cx="256" cy="256" r="248" fill="#FFFFFF" />
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#ringGrad)" stroke-width="20" />
+
+  <!-- Stylized D Stem & Outer Curve -->
+  <path d="M156 122 H258 C342 122 396 176 396 256 C396 336 342 390 258 390 H156 V324 H252 C298 324 328 296 328 256 C328 216 298 188 252 188 H212 V224 H156 V122 Z" fill="url(#dArcGrad)" />
+
+  <!-- Speed Motion Lines (Saffron & Green) -->
+  <rect x="102" y="236" width="66" height="14" rx="7" fill="#F26B1D" />
+  <rect x="86" y="258" width="82" height="14" rx="7" fill="#FF8C1A" />
+  <rect x="114" y="280" width="54" height="14" rx="7" fill="#229944" />
+
+  <!-- Shopping Cart Inside D Counter -->
+  <g fill="none" stroke="#146C32" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M182 216 H204 L220 292 H294 L310 234 H209" />
+    <line x1="228" y1="254" x2="300" y2="254" stroke-width="10" />
+    <line x1="232" y1="273" x2="295" y2="273" stroke-width="10" />
+  </g>
+  <circle cx="230" cy="316" r="13" fill="#146C32" />
+  <circle cx="284" cy="316" r="13" fill="#146C32" />
+
+  <!-- Twin Botanical Leaves on Top-Right of D -->
+  <path d="M342 142 C342 98 386 72 424 72 C424 110 396 142 342 142 Z" fill="url(#leafGrad)" />
+  <path d="M352 134 L406 86" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+  <path d="M368 158 C388 136 420 132 442 144 C422 168 394 172 368 158 Z" fill="url(#leafGrad)" />
+</svg>
